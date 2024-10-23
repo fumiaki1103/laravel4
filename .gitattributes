@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * text=auto
 
 *.blade.php diff=html
@@ -8,3 +9,6 @@
 
 /.github export-ignore
 CHANGELOG.md export-ignore
+=======
+* text eol=lf
+>>>>>>> 25cbb82f68b0f81a537aac95a513ba8b9e4c33a9

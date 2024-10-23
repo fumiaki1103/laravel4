@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /node_modules
 /public/hot
 /public/storage
@@ -13,3 +14,20 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+=======
+/vendor
+/.vagrant
+phpunit.xml
+/Homestead.yaml
+/Homestead.json
+/after.sh
+/aliases
+/mysqldump.sql.gz
+/mysql_backup
+/postgres_backup
+/user-customizations.sh
+.phpunit.result.cache
+wsl-init.log
+.backup/*
+.DS_Store
+>>>>>>> 25cbb82f68b0f81a537aac95a513ba8b9e4c33a9
