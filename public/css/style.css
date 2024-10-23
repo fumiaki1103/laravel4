@@ -17,7 +17,7 @@ h1
 .re{
     font-size: 14px;
 }
-h1 > a {
+.btn2 {
     font-size: 12px;
     background-color: aqua;
     border: 1px solid;
@@ -52,6 +52,6 @@ button
     border: 1px solid;
     border-radius: 3px;
     padding: 3px 10px;
-    margin-left: auto;
+    margin-left: 210px;
     text-decoration: none;
 }

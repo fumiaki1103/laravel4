@@ -10,13 +10,15 @@
     <div class="container">
     <h1>
        <span> Hello Laravel！</span>
-       <a href="{{ route('posts.create') }}">新規追加</a> <!-- 修正 -->
-       <div class="btn1"><a href="{{ route('search.posts') }}">検索</a></div> <!-- 修正 -->
+            <div class="btn1">
+                <a href="{{ route('posts.create') }}">新規追加</a>
+            </div>
+                <div class="btn2"><a href="{{ route('search.posts') }}">検索</a> </div>
     </h1>
     <ul>
         @foreach ($posts as $post)
             <li>
-                <a href="{{ route('posts.show', $post->id) }}"> <!-- 修正 -->
+                <a href="{{ route('posts.show', $post->id) }}">
                     {{ $post->title }}
                 </a>
             </li>
